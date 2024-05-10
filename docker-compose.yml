@@ -5,11 +5,11 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - .:/usr/src/app
+      - .:/app
     command: node index.js
 
   test:
     build: .
     volumes:
-      - .:/usr/src/app
+      - .:/app
     command: npm run test:watch
