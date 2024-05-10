@@ -15,8 +15,8 @@ The Weather Service API is a powerful tool for accessing weather data. It provid
 
 ### Installation
 
--Spin up Docker using docker-compose up to build image, run test and start.
--Send HTTP requests to the API endpoints as described below.
+- Spin up Docker using docker-compose up to build image, run test and start.
+- Send HTTP requests to the API endpoints as described below.
 
 ## API Endpoints
 
