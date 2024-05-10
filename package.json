@@ -1,0 +1,44 @@
+{
+  "name": "weather-service",
+  "version": "1.0.0",
+  "description": "Api for generating weather data.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jcvic1/weatherService.git"
+  },
+  "keywords": [
+    "weather",
+    "temperature"
+  ],
+  "author": "Victor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jcvic1/weatherService/issues"
+  },
+  "homepage": "https://github.com/Jcvic1/weatherService#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^7.2.0",
+    "joi": "^17.13.1",
+    "morgan": "^1.10.0",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/plugin-syntax-import-attributes": "^7.24.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.24.1",
+    "@babel/preset-env": "^7.24.5",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0"
+  }
+}

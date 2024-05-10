@@ -1,0 +1,11 @@
+{
+    "env": {
+      "test": {
+        "plugins": [
+          ["@babel/plugin-syntax-import-attributes"],
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+  
